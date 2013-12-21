@@ -15,3 +15,9 @@ Just Cause 2 - Multiplayer Environment script
     <td>Set the weather. Accepts number range of 0 through 2. 0 = clear, 2 = storm</td>
   </tr>
 </table>
+
+## Admins ##
+Edit client/environment.lua
+
+In the top, change line `self:AddAdmin("STEAM_0:0:16870054")` to have your own Steam ID.
+Duplicate this line, and change the IDs to add more admins that are allowed to use these commands.
